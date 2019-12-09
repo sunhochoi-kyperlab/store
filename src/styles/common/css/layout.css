@@ -27,8 +27,7 @@ body, button {
 	background: #0b0d1f;
 }
 .pop{
-    /* display: none; */
-    display: block !important;
+    display: none;
 	position: fixed;
 	top: 0;
 	left: 126px;
