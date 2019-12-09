@@ -1,0 +1,24 @@
+{
+    "spaceUnits": 2,
+    "insertHintOnTab": true,
+    "closeBrackets": true,
+    "linting.enabled": true,
+    "language": {
+        "javascript": {
+            "linting.prefer": "ESLint",
+            "linting.usePreferredOnly": true
+        }
+    },
+    "jwolfe.file-tree-exclude.list": [
+        "node_modules",
+        "obigo_lib",
+        "obigo_update"
+    ],
+    "obigo-studio.app-tools.signatureCertificate": "OB.Obigo-SY.SsangyongLv1",
+    "obigo-studio.app-tools.signatureAccessLevel": "",
+    "obigo-studio.app-tools.buildOption": "build:dev",
+    "obigo-studio.app-tools.contentsEncrypt": false,
+    "obigo-studio.app-tools.runTarget": "simulator.CSP",
+    "obigo-studio.app-tools.installTarget": "",
+    "obigo-studio.app-tools.remoteDebuggingTarget": ""
+}

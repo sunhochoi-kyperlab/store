@@ -1,0 +1,15 @@
+{
+  "loading": "Loading...",
+  "recommendation": "Recommendation",
+  "station_loading_error_title": "ERROR",
+  "station_loading_error_content": "Can not load station.",
+  "station_network_limit_content": "You have exceeded 3 attempts. \n Please restart the appliaction.",
+  "empty_station_error_title": "Empty List",
+  "empty_station_error_content": "There is no station to display.",
+  "network_error_title": "NO NETWORK",
+  "network_error_content": "Network Unavailable \n Would you like to retry?",
+  "button_retry": "Retry",
+  "button_ok": "OK",
+  "button_yes": "Yes",
+  "button_cancel": "Cancel"
+}

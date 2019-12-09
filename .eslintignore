@@ -1,0 +1,6 @@
+build/*.js
+config/*.js
+build.config/**
+src/js/lodash.custom.js
+src/js/lodash.custom.min.js
+src/js/fake/**
