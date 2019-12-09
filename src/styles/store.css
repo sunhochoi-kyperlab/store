@@ -35,6 +35,9 @@
     overflow: hidden;
     word-break: break-all;
     color: #969696 ;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .pop .progress{
     display: block;
@@ -174,14 +177,28 @@
 .preview .summary{
     margin-left: 30px;
     float: left;
+    width: 530px;
 }
-.summary h2{
+.fix-item .summary h2{
     font-size: 33px;
     color: #ffffff;
     line-height: 169%;
+    width: 100%;
+    overflow: hidden;
+    height: 55px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .pop-textarea .summary h2{
+    font-size: 33px;
+    color: #ffffff;
     line-height: 90px;
+    width: 450px;
+    height: 90px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .pop-textarea.detail .summary h2{
     line-height: 98px;
@@ -190,6 +207,11 @@
     font-size: 27px;
     color: #acacac;
     line-height: 125%;
+    width: 100%;
+    overflow: hidden;
+    height: 33px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .fix-item .btn-zone{
     float: right;
@@ -268,5 +290,5 @@
     line-height: 45px;
 }
 .pop .preview .summary{
-
+    width: auto;
 }

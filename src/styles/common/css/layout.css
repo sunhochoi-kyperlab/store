@@ -437,13 +437,23 @@ body, button {
 .list .name-area h3{
     font-size: 33px;
     line-height: 59px;
-	color: #fff;
+    color: #fff;
+    width: 410px;
+    overflow: hidden;
+    height: 59px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .list .name-area span{
     display: inline-block;
     font-size: 28px;
     line-height: 38px;
 	color: #969696;
+    width: 410px;
+    overflow: hidden;
+    height: 38px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .list li:active > h3{
 	color: #ffffff;
