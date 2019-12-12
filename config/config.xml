@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="http://www.obigo.com/posco/C300/store" version="1.0.7" viewmodes="fullscreen">
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://www.obigo.com/ces2020/OBIGO/C300/store" version="1.0.7" viewmodes="fullscreen">
   <icon src="icon.png"/>
   <author>Obigo</author>
   <license>        THE SOFTWARE IS PROVIDED BY OBIGO.
